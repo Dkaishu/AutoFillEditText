@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="5dp"
+            android:layout_toLeftOf="@+id/ll_bt"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|right">
+
+            <Button
+                android:id="@+id/bt"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/clean_bt_selector"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_drop"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</merge>

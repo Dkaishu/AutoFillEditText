@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoFillEditText">
+        <attr name="autoFill" format="boolean" />
+        <attr name="cleanerEnable" format="boolean" />
+        <attr name="tag" format="string" />
+        <attr name="hint" format="string" />
+        <!--<attr name="hintColor" format="color" />-->
+        <attr name="defaultText" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <!--<attr name="editMarginCleaner" format="dimension" />-->
+        <!--<attr name="cleanerMarginDrop" format="dimension" />-->
+        <!--<attr name="dropMarginBoundary" format="dimension" />-->
+        <attr name="dropDownSize" format="dimension" />
+        <attr name="cleanerSize" format="dimension" />
+    </declare-styleable>
+</resources>
