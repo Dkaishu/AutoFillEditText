@@ -67,7 +67,8 @@ public class AutoFillEditText extends RelativeLayout {
         cleanerButton = (Button) view.findViewById(R.id.bt);
         dropButton = (Button) view.findViewById(R.id.bt_drop);
 
-        if (hint != null) editText.setHint(hint);
+        if (!TextUtils.isEmpty(hint)) editText.setHint(hint);
+        if (!TextUtils.isEmpty(defaultText)) editText.setText(defaultText);
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
