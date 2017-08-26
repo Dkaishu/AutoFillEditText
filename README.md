@@ -40,9 +40,9 @@ Step 2. Add the dependency
         app:textColor="@color/colorPrimary"
         app:textSize="12sp"
         >
-    </com.tincher.autofilledittext.AutoFillEditText>
+      </com.tincher.autofilledittext.AutoFillEditText>
     
-    Step 3. And get/set the text in your java file
+    And then get/set the text in your java file
     
         AutoFillEditText myEditText  = (AutoFillEditText) findViewById(R.id.my_edit_text);
         myEditText.setText("that is it !");
