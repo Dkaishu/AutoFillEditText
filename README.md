@@ -42,7 +42,7 @@ Step 2. Add the dependency
         >
       </com.tincher.autofilledittext.AutoFillEditText>
     
-    And then get/set the text in your java file
+    Step 3. And then get/set the text in your java file
     
         AutoFillEditText myEditText  = (AutoFillEditText) findViewById(R.id.my_edit_text);
         myEditText.setText("that is it !");
